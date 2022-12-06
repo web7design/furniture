@@ -1,0 +1,77 @@
+main {
+    width: inherit;
+    height: 800px;
+    padding: 10px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+#content01 {
+    position: absolute;
+    top: 100px;        
+    /* border: 1px solid blue; */
+}
+#content01 h2 {
+    color: #405357;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px #fff;
+}
+article {
+    height: 250px;
+    padding: 8px;
+    /* border: 1px dotted red; */
+    display: inline-block;
+    background: #fff;
+    margin: 0 0 3px;
+}
+.list_title {
+    margin: 10px 0 5px;
+}
+.list_title a, .list_price a {
+    font-size: 14px;
+    color: #405357;
+    font-weight: bold;
+}
+article div:nth-of-type(1) {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+/* 이미지만 넣기 */
+.list_img01 {
+    background: url(img/img03.webp) no-repeat;
+}
+.list_img02 {
+    background: url(img/img02.jpg) no-repeat;
+}
+.list_img03 {
+    background: url(img/img05.webp) no-repeat;
+}
+.list_img04 {
+    background: url(img/img08.webp) no-repeat;
+}
+.list_img05 {
+    background: url(img/img10.webp) center 70%;
+}
+.list_img06 {
+    background: url(img/img14.webp) no-repeat;
+}
+.list_img07 {
+    background: url(img/img07.webp) no-repeat;
+}
+.list_img08 {
+    background: url(img/img12.webp) no-repeat;
+}
+#content02 {
+    position: absolute;
+    left: 26px;
+    bottom: 30px; 
+    width: 90%;
+    text-align: center;
+    border: 1px solid #405357;
+    padding: 10px;
+    background: #a5c0c6;
+    cursor: pointer;
+}
+
+

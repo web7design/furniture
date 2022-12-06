@@ -1,0 +1,117 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+}
+body {
+    background: #a3c8cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* 상단공간 */
+header {
+    background: #fdfdfd;
+    box-shadow: 0 1px 3px #ccc;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+}
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+h1 a {
+    color: #2c3c3f;
+}
+nav {
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+nav li a:hover {
+    color: #2c3c3f;
+}
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* 하단공간 */
+footer {
+    background: #607d82;
+    height: 200px;
+    clear: both;
+    position: relative;
+    color: white;
+}
+footer li:nth-child(1) {
+    width: 160px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    line-height: 20px;
+}
+footer li:nth-child(1) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+footer li:nth-child(2) {
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+footer li:nth-child(2) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+footer li:nth-child(3) {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+footer input {
+    width: 285px;
+    height: 30px;
+    margin: 3px 0;
+}
+[placeholder] {
+    padding-left: 15px;
+}
+footer button {
+    width: 304px;
+    height: 30px;
+    background: #405357;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+footer .copy {
+    position: absolute;
+    bottom: 0px;
+    background: #5e5e5e;
+    padding: 10px;
+    width: 97.8%;
+}
+footer .copy p {
+    text-align: center;
+    color: white;
+}
